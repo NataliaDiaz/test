@@ -1,0 +1,12 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+<..\index.html> a prov:Entity;
+	 dc:title "The P-Plan ontology";
+	 prov:wasAttributedTo <http://delicias.dia.fi.upm.es/members/DGarijo#me>;
+	 dc:creator <http://delicias.dia.fi.upm.es/members/DGarijo#me>;
+	 prov:wasAttributedTo <http://www.isi.edu/~gil/>;
+	 dc:creator <http://www.isi.edu/~gil/>;
+	 prov:wasAttributedTo [ a prov:Agent; foaf:name "Varun Ratnakar".];
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:wasGeneratedAt "2014-03-12".
